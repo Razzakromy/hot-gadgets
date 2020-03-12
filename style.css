@@ -1,0 +1,190 @@
+body{
+    background-image: url(img/biography-bg.png);
+    background-position: top;
+}
+
+.logo{
+    margin-top: 50px;
+}
+
+.nav-link{
+    color:#707070;
+}
+
+.buy-now-btn {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 15px;
+	display: inline-block;
+	transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) .2s;
+	
+}
+
+button{
+	display: inline-block;
+	transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) .2s;
+}
+.buy-now-btn:hover, button:hover{
+	transform: translateX(10px);
+	background-color: lightgrey;
+	color: #000;
+}
+
+.carousel-indicators li{
+    width: 16px;
+    height: 14px;
+    margin: 0 2px;
+    border-radius: 90%;
+	background-image: linear-gradient(to right, #FF9C35, #FFD019);
+	transition: ease-in-out .2s;
+	
+}
+
+/* .carousel-indicators li {
+    width: 18px;
+    height: 7px;
+    margin: 2px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: cyan;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.2);    
+} */
+
+.carousel-indicators .active {
+	width: 16px;
+	height: 14px;
+	margin: 0px 4px;
+	border-radius: 75%;
+	background-image: linear-gradient(to right, #FF9C35, #FFD019);
+	box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.card-footer {
+	border-top: 0px solid #000;
+	background-color: #fff;
+	padding: 0 0px;
+}
+
+.card-body p{
+    font-size: 14px;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top:30px;
+}
+
+.card {
+	border: none;
+	box-shadow: 4px -1px 8px lightgray;
+	border-radius: 15px;
+	padding: 15px 0px;
+	transition: ease-in-out .2s;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	box-shadow: 4px -10px 25px lightgray;
+}
+
+.container{
+    margin-bottom: 80px;
+}
+
+.categories h2::after {
+	content: "";
+	display: block;
+	width: 118px;
+	height: 8px;
+	margin: 4px 45%;
+	border-radius: 21px;
+	background-image: linear-gradient(to left, #FF9C35, #FFD019);
+}
+
+.bag {
+	width: 215px;
+	height: 244px;
+	background-color: #fff;
+	margin: 106px 15px;
+    border-radius: 0px 15px;
+    border: none;
+    box-shadow: 0px 0px 40px lightgray;
+}
+.beauty {
+	width: 215px;
+	height: 244px;
+	background-color: #fff;
+	margin: 0px -17px;
+    border-radius: 15px 0px;
+    border: none;
+    box-shadow: 0px 0px 40px lightgray;
+}
+
+.shoes {
+	width: 215px;
+	height: 244px;
+	background-color: #fff;
+	margin: 31px -17px;
+    border-radius: 15px 0px;
+    border: none;
+    box-shadow: 0px 0px 40px lightgray;
+}
+
+.contact{
+    height: 300px;
+    background-color: #fff;
+}
+
+.contact input {
+	border: 1px solid;
+	border-radius: 4px;
+	padding: 7px 72px 7px 16px;
+}
+
+.contact input[placeholder]{
+    color: #CCCCCC;
+}
+
+.send-btn {
+	border: 1px solid #FFB0FF;
+	background-image: linear-gradient(to left, #Ffff -20%, rgb(168, 4, 245) 100%);
+	padding: 7px 26px;
+	border-radius: 4px;
+	color: #fff;
+	float: right;
+}
+
+.best {
+	top: -74px;
+	left: 48%;
+	rotate: -18deg;
+	color: gray;
+	opacity: 0.2;
+	position: relative;
+	font-weight: bold;
+}
+
+.carousel-inner p{
+	color: gray;
+}
+.bag, .beauty, .shoes{
+	transition: ease-out .5s;
+}
+.bag:hover, .beauty:hover, .shoes:hover{
+	transform: rotate(15deg);
+}
+
+.pale{
+	transition: ease-out .8s;
+}
+
+.pale:hover{
+	transform: rotateY(20deg);
+}
